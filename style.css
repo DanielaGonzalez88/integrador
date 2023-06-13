@@ -1343,6 +1343,10 @@ button {
 }
 
 @media (max-width: 550px) {
+  .fa-envelope {
+    top: 1px;
+  }
+
   .nav-btns {
     gap: 10px;
   }
