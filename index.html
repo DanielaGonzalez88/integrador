@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mokafe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/Integrador/Assets/favicon_io (1)/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/Integrador/Assets/favicon_io (1)/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/Integrador/Assets/favicon_io (1)/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="/Integrador/Assets/favicon_io (1)/site.webmanifest"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="Assets/logo.png" alt="Logo Mokafe" />
+      <nav class="navbar">
+        <label class="bars-icon" for="bar-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="bar-toggle" />
+        <ul class="navbar-list">
+          <li><a href="#hero"> Inicio</a></li>
+          <li><a href="#products"> Productos</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#testify">Testimonios</a></li>
+          <li><a href="#contact">Contactanos</a></li>
+        </ul>
+        <div class="overlay"></div>
+        <div class="nav-btns">
+          <label for="cart-toggle"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></label>
+          <input type="checkbox" id="cart-toggle" />
+          <a href="./login.html" class="login">
+            <i class="fa-solid fa-user"></i> <span>Log in / Sign up</span>
+          </a>
+          <div class="cart">
+            <h2>Tu Selección</h2>
+            <div class="cart-item">
+              <img
+                src="/Integrador/Assets/pack-1.png"
+                alt="Bolsa de café Expresso"
+              />
+              <div class="item-info">
+                <h3>Café Expresso</h3>
+                <span>Blend</span>
+              </div>
+              <div class="item-handler">
+                <span>-</span>
+                <p>1</p>
+                <span>+</span>
+              </div>
+              <span>$3340</span>
+              <span>x</span>
+            </div>
+            <div class="cart-item">
+              <img
+                src="/Integrador/Assets/pack-2.png"
+                alt="Bolsa de café Verona"
+              />
+              <div class="item-info">
+                <h3>Café Verona</h3>
+                <span>Blend</span>
+              </div>
+              <div class="item-handler">
+                <span>-</span>
+                <p>1</p>
+                <span>+</span>
+              </div>
+              <span>$3800</span>
+              <span>x</span>
+            </div>
+            <div class="divider"></div>
+            <div class="cart-total">
+              <p>Total</p>
+              <span>$7140</span>
+            </div>
+            <button class="btn">Comprar</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="section" id="hero">
+        <div class="hero-info">
+          <h1>Mokafe</h1>
+          <h2>Café de especialidad</h2>
+          <p>
+            Llenate de energía con nuestra variedad de sabores y aromas
+            intensos. Ahora también podes disfrutar de nuestra sección de granos
+            de Chiapas, Mexico.
+          </p>
+          <a href="#products" class="btn">Nuestros productos</a>
+        </div>
+        <div class="hero-img">
+          <div class="background"></div>
+          <img src="/Integrador/Assets/cafe.png" alt="vaso de cafe" />
+        </div>
+      </section>
+      <div class="divisor">
+        <span>Mokafe</span>
+        <span>Mokafe</span>
+        <span>Mokafe</span>
+        <span>Mokafe</span>
+      </div>
+      <section class="section" id="products">
+        <h3 class="title-text">Conocé nuestros productos</h3>
+        <p class="text-p">
+          Nuestra amplia selección de granos tostados incluyen sabores frutales,
+          hierbas frescas, cacao negro y dulce, algunos con notas de menta
+          fresca y toques de verbena dulce. Descubrí el café ideal para tus
+          mañanas.
+        </p>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              src="/Integrador/Assets/pack-1.png"
+              alt="Bolsa de café Espresso"
+            />
+            <div class="price">
+              <span>Blend</span>
+              <p>Café Espresso</p>
+              <p>$3340</p>
+            </div>
+            <div class="comprar">
+              <button><p class="text-p">Comprar</p></button>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/Integrador/Assets/pack-2.png"
+              alt="Bolsa de café Verona"
+            />
+            <div class="price">
+              <span>Blend</span>
+              <p>Café Verona</p>
+              <p>$3800</p>
+            </div>
+            <div class="comprar">
+              <button><p class="text-p">Comprar</p></button>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/Integrador/Assets/pack-3.png"
+              alt="Bolsa de café Colombia"
+            />
+            <div class="price">
+              <span>Single Origin</span>
+              <p>Café Colombia</p>
+              <p>$3400</p>
+            </div>
+            <div class="comprar">
+              <button><p class="text-p">Comprar</p></button>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/Integrador/Assets/pack-4.png"
+              alt="Bolsa de café Chiapas, Mexico"
+            />
+            <div class="price">
+              <span>Single Origin</span>
+              <p>Café Chiapas</p>
+              <p>$3800</p>
+            </div>
+            <div class="comprar">
+              <button><p class="text-p">Comprar</p></button>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <img src="/Integrador/Assets/granos.png" alt="Tazas de cafe" />
+        <div class="container-title">
+          <h3 class="title-text">Amamos lo que hacemos</h3>
+          <button class="btn">Más sobre nosotros</button>
+        </div>
+        <div class="text-container">
+          <p>
+            El olor al café, a unos granos recién tostados, es la mejor
+            bienvenida que cada día planificamos para brindarles cuando abrimos
+            las puertas de nuestras cafeterías. Pero eso es sólo el comienzo.
+          </p>
+          <p>
+            De cuerpo entero, un poco ahumado, con notas cítricas, con fuerte
+            presencia de chocolate… el desafío que tenemos constantemente es que
+            cada uno de nuestros clientes encuentre su mezcla favorita y a la
+            vez, que explore nuestras amplias selecciones más singulares.
+          </p>
+        </div>
+      </section>
+      <section class="section" id="visitanos">
+        <h3 class="title-text">Vení a visitarnos</h3>
+        <p class="text-p">
+          En nuestras tiendas te esperan nuestros baristas capacitados para
+          ofrecerte una bebida muy especial. El ambiente cálido y los detalles
+          de nuestros productos elaborados artesanalmente hacen que la
+          experiencia sea única e inigualable.
+        </p>
+        <div class="imagenes">
+          <div class="background-img"></div>
+          <div class="background-img"></div>
+          <div class="background-img"></div>
+          <div class="background-img"></div>
+          <div class="background-img"></div>
+        </div>
+      </section>
+      <section class="section" id="testify">
+        <div class="testify-img-container">
+          <img src="./Assets/granos_redondos.png" alt="granos de cafe" />
+          <div class="testify-container">
+            <div class="img-testify"></div>
+            <div class="testify-info">
+              <p>Antonio Cives</p>
+              <p>
+                Es delicioso. No es tan suave, pero es muy rico. Tanto para
+                tomar solo como cortado, tiene cuerpo, color y sabor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="testify-info-container">
+          <h3 class="title-text-light">
+            Reseñas de nuestros <span>productos</span>
+          </h3>
+          <p class="text-p">
+            Generar un impacto positivo en la vida de las personas es primordial
+            para nosotros. Qué opina nuestra comunidad sobre nuestros productos
+            y servicios.
+          </p>
+          <div class="container-testify-container">
+            <div class="testify-container">
+              <div class="img-testify"></div>
+              <div class="testify-info">
+                <p>Carolina Simons</p>
+                <p>
+                  El café Verona es el mejor que probé, lo compré para tomar
+                  todas las mañanas.
+                </p>
+              </div>
+            </div>
+            <div class="testify-container">
+              <div class="img-testify"></div>
+              <div class="testify-info">
+                <p>Juan Ambrosio</p>
+                <p>
+                  El sabor es término medio (ni muy intenso ni suave), y las
+                  notas muy presentes.
+                </p>
+              </div>
+            </div>
+            <div class="testify-container">
+              <div class="img-testify"></div>
+              <div class="testify-info">
+                <p>Sofía Refojos</p>
+                <p>
+                  Excelente café, no lo cambio por nada. Lo recomiendo, calidad
+                  y sabor.
+                </p>
+              </div>
+            </div>
+            <div class="testify-container">
+              <div class="img-testify"></div>
+              <div class="testify-info">
+                <p>Julia Aguilar</p>
+                <p>
+                  Todo muy tentador y las oferta de café increíbles. Ambiente
+                  agradable para relajarse!
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="btn">Más testimonios</button>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="container-ubication">
+          <h3 class="title-text">Contactanos</h3>
+          <div class="dress">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Dr. Juan Felipe Aranguren 204, Buenos Aires</p>
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <p>011 4983-1850</p>
+          </div>
+          <div class="redes">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7305328754132!2d-58.43385790000005!3d-34.61097489999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca698dc4f36b%3A0x147aa34002827674!2sDr.%20Juan%20Felipe%20Aranguren%20204%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1685596134188!5m2!1ses-419!2sar"
+              width="100%"
+              height="350px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="container-contact">
+          <p>Envianos tu mensaje</p>
+          <form class="form-contact">
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Name" />
+            <label for="mail"></label>
+            <input type="email" id="mail" placeholder="Mail" />
+            <label for="message"></label>
+            <textarea
+              id="message"
+              placeholder="Mensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button class="btn" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-info">
+        <div>
+          <ul class="footer-list">
+            <li><a href="#hero"> Inicio</a></li>
+            <li><a href="#products"> Productos</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#testify">Testimonios</a></li>
+            <li><a href="#contact">Contactanos</a></li>
+          </ul>
+        </div>
+        <div>
+          <img src="/Integrador/Assets/icon-white.png" alt="Logo Mokafe" />
+        </div>
+        <div class="footer-subscribe">
+          <p>SUSCRIBITE</p>
+          <p>Dejanos tu mail para recibir todas las novedades</p>
+          <div class="form-mail">
+            <label for="mail"></label>
+            <input type="email" id="mail" placeholder="Mail" />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <p class="">Copyright © 2023, Mokafe.</p>
+      </div>
+    </footer>
+  </body>
+</html>
