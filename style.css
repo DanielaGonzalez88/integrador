@@ -1429,6 +1429,8 @@ button {
   .container-signup {
     left: calc(50vw - 36vw);
     width: 70vw;
+    top: calc(50vh - 35vh);
+    height: 70vh;
   }
 
   .item {
@@ -1473,4 +1475,39 @@ button {
 .navbar-list li a:hover::after {
   transform-origin: bottom left;
   transform: scale(1);
+}
+
+/* hero */
+@keyframes translateX {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes translateY {
+  from {
+    transform: translateY(60%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.hero-info h1 {
+  animation: translateX 1.6s ease-in-out;
+}
+
+.hero-info h2 {
+  animation: translateY 1.2s ease;
+}
+
+.hero-info p {
+  animation: translateY 1.5s ease-out;
+}
+
+.hero-info a {
+  animation: translateY 1.2s ease;
 }
