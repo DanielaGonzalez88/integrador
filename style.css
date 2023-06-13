@@ -1433,6 +1433,34 @@ button {
     height: 70vh;
   }
 
+  .container-login h1,
+  .container-signup h1 {
+    font-size: 22px;
+  }
+
+  .container-login h2,
+  .container-signup h2 {
+    font-size: 16px;
+  }
+
+  .user label,
+  .pass label,
+  .name label {
+    font-size: 12px;
+  }
+
+  .container-signup p {
+    padding-top: unset;
+  }
+
+  #name,
+  #mail,
+  #pass,
+  #message,
+  #pass-repeat {
+    height: 2em;
+  }
+
   .item {
     border-radius: 25px;
   }
