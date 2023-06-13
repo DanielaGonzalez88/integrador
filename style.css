@@ -1270,6 +1270,7 @@ button {
 
   #testify {
     width: 80%;
+    padding: 0;
   }
 
   .imagenes {
@@ -1363,6 +1364,7 @@ button {
 
   .card {
     width: 280px;
+    transform: scale(0.9);
   }
 
   .card img {
